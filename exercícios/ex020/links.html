@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* CSS para estilizar links */
+        /* #=id */
+        /* .=classe */
+        /* :=pseudo-classe */
+        /* ::pseudo-elementos*/
+        /* >=children */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        /* : pseudoclass */
+        /* :: elementos */
+
+        .especial::after {
+            content: ' [especial]';
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/joaoamaia1311" target="_blank">Repositório GItHub</a></li>
+        <li><a href="https://www.youtube.com/@joaovitormarques1720" target="_blank">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" class="especial">Site de CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

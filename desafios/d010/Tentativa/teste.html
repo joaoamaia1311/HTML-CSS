@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Centralização Responsiva</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente (opcional) */
+            min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da janela */
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente de fundo */
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%; /* Largura do contêiner */
+            max-width: 1200px; /* Largura máxima para telas grandes */
+            padding: 20px; /* Preenchimento interno */
+            background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo com transparência */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+        }
+
+        header {
+            background-color: #333; /* Cor de fundo do header */
+            color: white; /* Cor do texto do header */
+            padding: 20px; /* Preenchimento interno do header */
+            text-align: center; /* Centraliza o texto do header */
+        }
+
+        main {
+            padding: 20px; /* Preenchimento para o conteúdo principal */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Meu Header</h1>
+        </header>
+
+        <main>
+            <p>Conteúdo da página...</p>
+        </main>
+    </div>
+
+</body>
+</html>

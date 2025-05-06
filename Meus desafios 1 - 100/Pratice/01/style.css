@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    display: block;
+    width: 100%;
+}
+
+section {
+    background-color: #dadbf1;
+}
+
+footer {
+    background-color: black;
+}
+
+.icon {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    alighn-items: left; /* Center the icon vertically */
+}
+
+.logo {
+    display: inline-block; /* Use flexbox to center the content */
+}
+
+.search {
+    justify-content: right; /* Center the search bar horizontally */
+    align-items: right; /* Center the search bar vertically */
+    display: block; /* Use flexbox to center the content */
+}
+
+.search-bar {
+    display: inline-block; /* Use inline-block to center the search bar */
+    justify-content: right; /* Center the search bar horizontally */
+    align-items: right; /* Center the search bar vertically */
+}
+
+.submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.signin {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
